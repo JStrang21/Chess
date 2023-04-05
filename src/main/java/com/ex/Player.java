@@ -1,3 +1,5 @@
+package main.java.com.ex;
+
 public class Player {
     //If player object is human than game will wait for player to make move
     public boolean human;
@@ -9,5 +11,9 @@ public class Player {
 
     public Player() {
         human = false;
+    }
+
+    public void hello() {
+        System.out.println("Hello");
     }
 }

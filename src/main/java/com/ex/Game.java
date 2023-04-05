@@ -1,3 +1,5 @@
+package main.java.com.ex;
+
 public class Game {
     Player playerOne;
     Player playerTwo;
@@ -21,4 +23,10 @@ public class Game {
             playerTwo = new Player();
         }
     }
+
+    /*public static void main(String[] args) {
+        //For one player game instantiate game with Game(1) for two player use Game(2)
+        Game g = new Game(1);
+        System.out.println(g.board.squares[1][1]);
+    }*/
 }

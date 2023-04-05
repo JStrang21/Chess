@@ -13,8 +13,7 @@ public final class App {
      */
     public static void main(String[] args) {
         Game g1 = new Game(1);
-        Player newPlayer = g1.playerOne;
-        newPlayer.hello();
+        
         System.out.println("Hello World!");
     }
 }

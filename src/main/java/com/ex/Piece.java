@@ -1,6 +1,6 @@
 package main.java.com.ex;
 
-public class Piece {
+public abstract class Piece extends Square{
     int color;
     //Current square position
     int curX;
@@ -8,7 +8,9 @@ public class Piece {
     
     public boolean canMove(int desX, int desY) {
         //From current square position check if specific piece can make given move
-        
+
         return false;
     }
+
+    abstract boolean tracePath(int destX, int destY);
 }

@@ -3,7 +3,7 @@ package main.java.com.ex;
 public class Game {
     Player white;
     Player black;
-    Board board;
+    Board board = new Board();
 
     
     public Game(int i) {

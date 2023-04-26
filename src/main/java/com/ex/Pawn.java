@@ -1,10 +1,6 @@
 package main.java.com.ex;
 
-public class King extends Piece{
-    //Current square position
-    int curX;
-    int curY;
-
+public class Pawn extends Piece{
     public boolean traceMovement() {
         return false;
     }
@@ -14,11 +10,6 @@ public class King extends Piece{
     }
 
     boolean tracePath(int destX, int destY) {
-        
         return false;
-    }
-
-    public void printPiece() {
-        System.out.println();
     }
 }
